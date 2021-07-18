@@ -1,4 +1,4 @@
-## This is a user.js for making firefox more privet but user frendly
+## This is a user.js for making firefox more privet but still user frendly
 
 Sources is in the user.js file
 
