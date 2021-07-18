@@ -1,5 +1,5 @@
 /* All until other sources is from https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks 
-(I don't disable google safe browsing)
+(I don't disable Google Safe Browsing. Its proxy by Mozilla, more advanced users might want to disable it)
 ***/
 
 
