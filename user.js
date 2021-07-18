@@ -1,4 +1,6 @@
-/* All until other sources is from https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks ***/
+/* All until other sources is from https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks 
+(I don't disable google safe browsing)
+***/
 
 
 
