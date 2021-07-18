@@ -1,5 +1,6 @@
 /* All until other sources is from https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks 
-(I don't disable Google Safe Browsing. Its proxy by Mozilla, more advanced users might want to disable it)
+(I dident disable Google Safe Browsing. Its proxy by Mozilla, more advanced users might want to disable it)
+(I didn't disable Google DRM in about:config beaus its disable by default)
 ***/
 
 
@@ -102,7 +103,7 @@ user_pref("webgl.disabled", true);
 ***/
 
 
-/* Sources https://www.privacytools.io/browsers/#about_config (Only theme with sources there stat the full "name")
+/* Sources https://www.privacytools.io/browsers/#about_config (I found sources to those who had non)
 ***/
 
 user_pref("browser.sessionstore.privacy_level", 2);
@@ -114,7 +115,29 @@ user_pref("browser.sessionstore.privacy_level", 2);
 
 ***/
 
+user_pref("privacy.trackingprotection.enabled", true);
+/* Sources (only this one): https://wiki.mozilla.org/Security/Tracking_protection 
+"This is Mozilla's new built-in tracking protection. One of it's benefits is blocking tracking (i.e. Google Analytics) on privileged pages where add-ons that usually do that are disabled."
+***/
+
+user_pref("dom.event.clipboardevents.enabled", false);
+
+/* Sources (only this one): https://www.ghacks.net/2014/01/08/block-websites-reading-modifying-clipboard-contents-firefox, https://digiwonk.gadgethacks.com/how-to/re-enable-copy-paste-annoying-sites-block-0155910 and https://support.mozilla.org/en-US/questions/969543#answer-474051)
+"Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected."
+***/
+
+user_pref("media.navigator.enabled", true);
+
 /* Prefetching causes cookies from the prefetched site to be loaded and other potentially unwanted behavior ***/
+
+/* The only sources was copys of privacytools.io list user_pref("media.navigator.enabled", false);
+***/
+
+user_pref("beacon.enabled", false);
+
+/* Exstra sources(only this one): https://www.ghacks.net/overview-firefox-aboutconfig-security-privacy-preferences
+"Disables sending additional analytics to web servers"
+***/
 
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.dns.disablePrefetchFromHTTPS", true);
