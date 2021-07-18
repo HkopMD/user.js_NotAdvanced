@@ -114,6 +114,14 @@ user_pref("browser.sessionstore.privacy_level", 2);
 
 ***/
 
+/* Prefetching causes cookies from the prefetched site to be loaded and other potentially unwanted behavior ***/
+
+user_pref("network.dns.disablePrefetch", true);
+user_pref("network.dns.disablePrefetchFromHTTPS", true);
+user_pref("network.predictor.enabled", false);
+user_pref("network.predictor.enable-prefetch", false);
+user_pref("network.prefetch-next", false);
+
 
 user_pref("network.IDN_show_punycode", true);
 /*Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. Source"
