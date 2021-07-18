@@ -100,7 +100,7 @@ user_pref("webgl.disabled", true);
 ***/
 
 
-/* Sources https://www.privacytools.io/browsers/#about_config 
+/* Sources https://www.privacytools.io/browsers/#about_config (Only theme with sources there stat the full "name")
 ***/
 
 user_pref("browser.sessionstore.privacy_level", 2);
