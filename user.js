@@ -150,7 +150,7 @@ user_pref("network.IDN_show_punycode", true);
 /*Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. Source"
 ***/
 
-/*Webrtc ip leak disable Sources https://www.privacytools.io/browsers/#webrtc, https://www.ivacy.com/internet-privacy/disable-webrtc-leak, https://kingpinbrowser.com/blog/how-disable-webrtc and https://temproxy.com/news/how-to-disable-webrtc-firefox-webrtc-mozilla-ip-leaks.html
+/*Webrtc ip leak disable Sources https://wiki.mozilla.org/Media/WebRTC/Privacy, https://www.privacytools.io/browsers/#webrtc, https://www.ivacy.com/internet-privacy/disable-webrtc-leak, https://kingpinbrowser.com/blog/how-disable-webrtc, https://temproxy.com/news/how-to-disable-webrtc-firefox-webrtc-mozilla-ip-leaks.html and https://getfastvpn.com/vpn-articles/vpn-advanced-usage/how-to-disable-webrtc-in-firefox-chrome-opera-edge-and-others, https://security.stackexchange.com/questions/221400/browser-setups-to-stay-safe-from-malware-and-unwanted-stuff and Mullvad and Ivpn (old)
 ***/
 
 user_pref("media.peerconnection.enabled", false);
