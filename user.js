@@ -60,7 +60,7 @@ user_pref("network.cookie.cookieBehavior", 1);
 "
 ***/
 
-user_pref("network.cookie.lifetimePolicy", 2);
+user_pref("network.cookie.lifetimePolicy", 1);
 /* "cookies are deleted at the end of the session
 
         0 = Accept cookies normally
